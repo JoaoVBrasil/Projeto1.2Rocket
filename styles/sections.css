@@ -1,0 +1,90 @@
+.busan-intro {
+    span {
+        font: var(--font-headline);
+        color: var(--text-headline);
+    }
+
+    h1 {
+        font: var(--font-h1);
+    }
+}
+
+.busan-description {
+    margin-block: 2.5rem;
+
+    img {
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font: var(--font-subtitle);
+        color: var(--text-secondary);
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+.content {
+    header {
+        margin-block: 4rem;
+    }
+
+    span {
+        font: var(--font-headline);
+        color: var(--text-headline);
+    }
+
+    h2 {
+        font: var(--font-h2);
+    }
+}
+
+.three-destinations {
+
+    ol {
+        list-style: none;
+    }
+
+    img {
+        height: 21.875rem;
+        object-fit: cover;
+    }
+
+    .content-card {
+
+        margin-block: 1.25rem 3rem;
+
+        h3 {
+            font: var(--font-h3);
+            margin-bottom: .25rem;
+        }
+
+        p {
+            font: var(--font-paragraph);
+            color: var(--text-secondary);
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--accent-blue);
+        }
+
+        ul {
+            list-style: none;
+            list-style-position: inside;
+
+            li:has(a)::before {
+                content: "• ";
+            }
+        }
+
+
+    }
+
+
+
+}
