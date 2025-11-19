@@ -65,7 +65,7 @@
         }
 
         strong {
-            font-weight: normal;
+            color: var(--text-secondary);
         }
 
         a {
@@ -81,10 +81,31 @@
                 content: "• ";
             }
         }
+    }
+}
 
+#last-ul {
+    font: var(--font-headline);
 
+    li:nth-child(1) a {
+        color: var(--accent-purple);
     }
 
+    li:nth-child(2) a {
+        color: var(--accent-pink);
+    }
 
+    li:nth-child(3) a {
+        color: var(--accent-orange);
+    }
+}
 
+#description {
+    font: var(--font-paragraph);
+    color: var(--text-secondary);
+
+    text-align: center;
+
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--border-primary);
 }

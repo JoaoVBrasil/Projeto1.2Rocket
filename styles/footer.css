@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3rem;
+
+    p img {
+        width: 1rem;
+        height: 1rem;
+        vertical-align: middle;
+    }
+}
